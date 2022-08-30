@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USM</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="baul_header">
+            <img src="img/Logo_UTFSM-768x677.png">
+        </div>
+        <div class="baul_header">
+            <h1>Toma de salas USM</h1>
+        </div>
+    </header>
+    
+    <div class="salas_titulo">
+        <h2>Salas disponibles</h2>
+    </div>
+    <div class="baul_salas">
+        <div class="sala">
+            <p>A 000</p>
+        </div>
+        <div class="sala">
+            <p>A 001</p>
+        </div>
+        <div class="sala">
+            <p>B 000</p>
+        </div>
+        <div class="sala">
+            <p>C 000</p>
+        </div>
+        <div class="sala">
+            <p>D 000</p>
+        </div>
+        <div class="sala">
+            <p>E 000</p>
+        </div>
+        <div class="sala">
+            <p>F 000</p>
+        </div>
+        
+    </div>
+    <div class="nombre_ente">
+        <p class="p_c">Nombres y apellidos del solicitante</p>
+        <input type="text" id="nombre_ente" placeholder="Bran Marcelo Hernandez Villalobos">
+    </div>
+    <form action="https://formsubmit.co/" enctype="multipart/form-data" method="POST">
+        <div class="baul_input">
+            
+        </div>
+        <div class="baul_input">
+            <p>¿Usara la sala hibrida?</p>
+        </div>
+        <div class="baul_input">
+            <p class="p_c">Si</p>
+            <p class="p_c">No</p>
+        </div>
+        <div class="baul_input_check">
+            <input type="checkbox" id="check">
+            <input type="checkbox" id="check">
+        </div>
+        <div class="baul_input">
+            <p>¿Usara el sistema de la sala?</p>
+        </div>
+        <div class="baul_input">
+            <p class="p_c">Si</p>
+            <p class="p_c">No</p>
+        </div>
+        <div class="baul_input_check">
+            <input type="checkbox" id="check">
+            <input type="checkbox" id="check">
+        </div>
+        <div class="baul_input">
+            <p>
+                Recuerde revisar en el recuadro superior si es que la sala que usted necesita esta habilitada, para saber si la sala esta habilitada saldra en el recuadro, en caso de que este tomada no aparecera,
+                cabe recalcar que las reservas deben ser con un día de anterioridad para organizar la lista.
+            </p>
+        </div>
+        <div class="baul_input">
+            <p class="p_c">Nombre de la sala solicitada</p>
+        </div>
+        <div class="baul_input">
+            <input type="text" placeholder="A-100" id="nombre_sala">
+        </div>
+        <div class="baul_input">
+            <input type="submit" value="Solicitar" id="send">
+            <input type="hidden" name="_next" value="">
+        </div>
+    </form>
+    <footer>
+        <div class="baul_footer">
+            <img src="img/Logo_UTFSM-768x677.png">
+        </div>
+        <div class="baul_footer">
+            <p>+56 9 0000 0000</p>
+        </div>
+        <div class="baul_footer">
+            <p>email@gmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>
